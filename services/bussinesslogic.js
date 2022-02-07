@@ -19,13 +19,13 @@ const CalculateSip = (BodydData) => {
 
 
     // returing result in an object form
-    var allinvestmentinfo = {
+    var Data = {
         sipGrowthToday: sipGrowthToday,
         sipGrowthDelay: sipGrowthDelay,
         lossFromDelay: lossFromDelay
     }
   //this is array of objects where the objects are for the showing result in graph
-    let graphValue = [{
+    let Graph = [{
         name: "StartToday",             //name is for x-axis
         amount: sipGrowthToday             //amount is for y-axis
     },
@@ -39,7 +39,7 @@ const CalculateSip = (BodydData) => {
     }]
 
 
-    return { allinvestmentinfo, graphValue };                 //returig nested object for the graph and result
+    return { Data,Graph };                 //returig nested object for the graph and result
 }
 
 //function for calculation of sipgrowth
