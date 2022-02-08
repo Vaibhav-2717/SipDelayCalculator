@@ -24,4 +24,4 @@ const Calculatecontrol = (req, res) => {
     }
 }
 
-module.exports = Calculatecontrol;
+module.exports = {Calculatecontrol};
