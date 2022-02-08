@@ -22,7 +22,8 @@ const CalculateSip = (BodydData) => {
     var Data = {
         sipGrowthToday: sipGrowthToday,
         sipGrowthDelay: sipGrowthDelay,
-        lossFromDelay: lossFromDelay
+        lossFromDelay: lossFromDelay,
+        DelayMonths: delay
     }
   //this is array of objects where the objects are for the showing result in graph
     let Graph = [{
